@@ -6,7 +6,7 @@ public class Institute  {
     static String name;
 
 
-    public Institute(String name) {
+    public void setInstitute(String name) {
         this.name = name;
 
     }

@@ -11,11 +11,12 @@ public class Student {
     static String institute;
 
 
-    List Lesson = new ArrayList();
 
-    public Student(String institute, String name) {
+    public void setName(String name) {
         this.name = name;
-
+    }
+    public void setInstitute(String institute) {
+        this.institute = institute;
     }
 
 }
